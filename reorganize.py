@@ -20,6 +20,7 @@ class President:
 	def __str__(self): 
 		",".join([str(self.fullName), self.finishTime])
 
+writer.writerow(["Full Name", "Finish Time in Minutes and Seconds"])
 
 for row in reader: 
 	name = " ".join([row["first name"], row["last name"]])
